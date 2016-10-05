@@ -38,7 +38,7 @@ Mary Wollstonecraft
 [Screen PDF](https://github.com/sfpc-amd/txt-conversations/raw/master/booklet/wollstonecraft/wollstonecraft-booklet-screen.pdf) / [Print PDF](https://github.com/sfpc-amd/txt-conversations/raw/master/booklet/wollstonecraft/wollstonecraft-booklet-print.pdf) / [Source](http://www.gutenberg.org/ebooks/3529)
 
 
-Instructions
+Roll Your Own
 ===============================
 
 The script

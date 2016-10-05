@@ -24,6 +24,7 @@
   "bugs": {
     "url": "https://github.com/andyinabox/txt/issues"
   },
+  "license" : "ISC",
   "homepage": "https://github.com/andyinabox/txt",
   "devDependencies": {
     "gh-markdown-cli": "^0.2.0",
