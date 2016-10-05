@@ -4,9 +4,11 @@
   "description": "A tiny cutup code poetry zine",
   "main": "README.md",
   "scripts": {
-    "build": "./bin/build_corpus.sh",
+    "build_corpus": "./bin/build_corpus.sh",
     "generate": "./bin/generate.sh",
-    "deploy": "mkdir dist; cp README.md dist/index.md; gh-pages -d dist; npm run clean;",
+    "mdown": "mdown -i README.md --header 'src/site/header.html' --footer 'src/site/footer.html' > dist/index.html",
+    "build-site": "mkdir -p dist; npm run mdown; cp src/site/styles.css dist/styles.css; cp -r publish dist/publish;",
+    "deploy": "npm run build-site; gh-pages -d dist; npm run clean;",
     "clean": "rm -rf dist"
   },
   "repository": {
