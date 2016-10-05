@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>txt</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<h1>txt</h1>
+
+<p>A tiny cutup code poetry zine.</p>
+
+<p>Each edition focuses on a different set of correspondance, usually sourced from <a href="https://en.wikipedia.org/wiki/Project_Gutenberg">Project Gutenberg</a>. Poems are generated using a one-liner script and collected in a teensy zine.</p>
+
+<p>The print version uses a single sheet of letter-sized paper (US), with a poster on the back.  <a href="http://experimentwithnature.com/03-found/experiment-with-paper-how-to-make-a-one-page-zine/#.VhMuvBNViko">Look here</a> for instructions for assembling the zine.</p>
+
+<h1>Editions</h1>
+
+<ol>
+<li><a href="#de-tocqueville--nassau">De Tocqueville &amp; Nassau</a></li>
+<li><a href="#john-keats">John Keats</a></li>
+<li><a href="#mary-wollstonecraft">Mary Wollstonecraft</a></li>
+</ol>
+
+<h2>De Tocqueville &amp; Nassau</h2>
+
+<p><img src="booklet/de_tocqueville_nassau/de_tocqueville-poster.jpg" alt="Poster image" title="" /></p>
+
+<p><a href="https://github.com/sfpc-amd/txt-conversations/raw/master/booklet/de_tocqueville_nassau/de_tocqueville-booklet-screen.pdf">Screen PDF</a> / <a href="https://github.com/sfpc-amd/txt-conversations/raw/master/booklet/de_tocqueville_nassau/de_tocqueville-booklet-print.pdf">Print PDF</a> / <a href="http://www.gutenberg.org/ebooks/13333">Source</a></p>
+
+<h2>John Keats</h2>
+
+<p><img src="booklet/keats/keats-poster.jpg" alt="Poster image" title="" /></p>
+
+<p><a href="https://github.com/sfpc-amd/txt-conversations/raw/master/booklet/keats/keats-booklet-screen.pdf">Screen PDF</a> / <a href="https://github.com/sfpc-amd/txt-conversations/raw/master/booklet/keats/keats-booklet-print.pdf">Print PDF</a> / <a href="http://www.gutenberg.org/ebooks/35698">Source</a></p>
+
+<h2>Mary Wollstonecraft</h2>
+
+<p><img src="booklet/wollstonecraft/wollstonecraft-poster.jpg" alt="Poster image" title="" /></p>
+
+<p><a href="https://github.com/sfpc-amd/txt-conversations/raw/master/booklet/wollstonecraft/wollstonecraft-booklet-screen.pdf">Screen PDF</a> / <a href="https://github.com/sfpc-amd/txt-conversations/raw/master/booklet/wollstonecraft/wollstonecraft-booklet-print.pdf">Print PDF</a> / <a href="http://www.gutenberg.org/ebooks/3529">Source</a></p>
+
+<h1>Instructions</h1>
+
+<h2>The script</h2>
+
+<p>This whole project is based on a single line. This command will generate poems from whatever text is contained in <code>corpus.txt</code>, using <code>$SEARCH</code> as the query:</p>
+
+<pre><code>
+cat < corpus.txt | grep -e $SEARCH | cut -d ' ' -f 2-5 | tr A-Z a-z | tr -d "',._\""
+</code></pre>
+
+<h2>Setup</h2>
+
+<p>First run the script to build your corpus.</p>
+
+<pre><code>
+$ ./bin/build_corpus.sh
+</code></pre>
+
+<p>You will be prompted to choose whether to include any of the available texts.</p>
+
+<h2>Usage</h2>
+
+<p>Now run the parser script and you will be prompted for a search term. Example using the search term "democracy" on the De Tocqueville text:</p>
+
+<pre><code>
+$ ./bin/generator.sh
+democracy
+lift you into aristocracy
+i think that it
+so irresistible a reaction
+i see no symptom
+rather strengthen our democracy
+out which leads to
+naturally not partial to
+his asiatic democracy but
+universal suffrage i detest
+</code></pre>
+
+<p>Or, to export to a file:</p>
+
+<pre><code>
+$ echo "democracy" | ./bin/generator.sh > txt/democracy.txt
+</code></pre>
+
+<p>See more examples on the <code>txt</code> directory, each text file is named based on the corresponding string search.</p>
+
+<p><a href="http://github.com/andyinabox/txt">View the source</a></p>
+
+</body>
+</html>
