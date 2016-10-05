@@ -1,9 +1,11 @@
-.txt conversations
-====================
+txt
+====
 
-Turning 19th century snailmail correspondence into poems.
+A tiny cutup code poetry zine.
 
-[Look here](http://experimentwithnature.com/03-found/experiment-with-paper-how-to-make-a-one-page-zine/#.VhMuvBNViko) for assembly instructions.
+Each edition focuses on a different set of correspondance, usually sourced from [Project Gutenberg](https://en.wikipedia.org/wiki/Project_Gutenberg). Poems are generated using a one-liner script and collected in a teensy zine.
+
+The print version uses a single sheet of letter-sized paper (US), with a poster on the back.  [Look here](http://experimentwithnature.com/03-found/experiment-with-paper-how-to-make-a-one-page-zine/#.VhMuvBNViko) for instructions for assembling the zine.
 
 
 Editions
@@ -12,6 +14,7 @@ Editions
  1. [De Tocqueville & Nassau](#de-tocqueville--nassau)
  2. [John Keats](#john-keats)
  3. [Mary Wollstonecraft](#mary-wollstonecraft)
+
 
 De Tocqueville & Nassau
 ------------------------------
