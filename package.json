@@ -7,7 +7,7 @@
     "build_corpus": "./bin/build_corpus.sh",
     "generate": "./bin/generate.sh",
     "mdown": "mdown -i README.md --header 'src/site/header.html' --footer 'src/site/footer.html' > dist/index.html",
-    "build-site": "mkdir -p dist; npm run mdown; cp src/site/styles.css dist/styles.css; cp -r publish dist/publish;",
+    "build-site": "mkdir -p dist; npm run mdown; cp src/site/styles.css dist/styles.css;",
     "deploy": "npm run build-site; gh-pages -d dist; npm run clean;",
     "clean": "rm -rf dist"
   },
