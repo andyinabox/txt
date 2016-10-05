@@ -7,6 +7,7 @@ Each edition focuses on a different set of correspondance, usually sourced from 
 
 The print version uses a single sheet of letter-sized paper (US), with a poster on the back.  [Look here](http://experimentwithnature.com/03-found/experiment-with-paper-how-to-make-a-one-page-zine/#.VhMuvBNViko) for instructions for assembling the zine.
 
+---
 
 Editions
 ========
@@ -39,6 +40,7 @@ Mary Wollstonecraft
 
 ![Poster image](https://github.com/andyinabox/txt/raw/master/publish/wollstonecraft/wollstonecraft-poster.jpg)
 
+---
 
 Roll Your Own
 ===============================
@@ -91,3 +93,6 @@ $ echo "democracy" | ./bin/generator.sh > txt/democracy.txt
 
 See more examples on the `txt` directory, each text file is named based on the corresponding string search.
 
+---
+
+This project was started at [School for Poetic Computation](http://sfpc.io).
