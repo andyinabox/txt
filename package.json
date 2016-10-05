@@ -1,0 +1,30 @@
+{
+  "name": "txt",
+  "version": "1.0.0",
+  "description": "A tiny cutup code poetry zine",
+  "main": "README.md",
+  "scripts": {
+    "build": "./bin/build_corpus.sh",
+    "generate": "./bin/generate.sh",
+    "deploy": "mkdir dist; cp README.md dist/index.md; gh-pages -d dist; npm run clean;",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andyinabox/txt.git"
+  },
+  "keywords": [
+    "zine",
+    "code",
+    "poetry"
+  ],
+  "author": "Andy Dayton <amdayton@gmail.com> (http://andydayton.com/)",
+  "bugs": {
+    "url": "https://github.com/andyinabox/txt/issues"
+  },
+  "homepage": "https://github.com/andyinabox/txt",
+  "devDependencies": {
+    "gh-markdown-cli": "^0.2.0",
+    "gh-pages": "^0.11.0"
+  }
+}

@@ -1,2 +1,5 @@
 src/corpus.txt
-booklet/~*
+booklet/**/~*
+index.html
+node_modules
+dist
