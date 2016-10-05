@@ -19,23 +19,23 @@ Editions
 De Tocqueville & Nassau
 ------------------------------
 
-![Poster image](booklet/de_tocqueville_nassau/de_tocqueville-poster.jpg)
+![Poster image](https://github.com/sfpc-amd/txt-conversations/raw/master/publish/de_tocqueville_nassau/de_tocqueville-poster.jpg)
 
-[Screen PDF](https://github.com/sfpc-amd/txt-conversations/raw/master/booklet/de_tocqueville_nassau/de_tocqueville-booklet-screen.pdf) / [Print PDF](https://github.com/sfpc-amd/txt-conversations/raw/master/booklet/de_tocqueville_nassau/de_tocqueville-booklet-print.pdf) / [Source](http://www.gutenberg.org/ebooks/13333)
+[Screen PDF](https://github.com/sfpc-amd/txt-conversations/raw/master/publish/de_tocqueville_nassau/de_tocqueville-booklet-screen.pdf) / [Print PDF](https://github.com/sfpc-amd/txt-conversations/raw/master/publish/de_tocqueville_nassau/de_tocqueville-booklet-print.pdf) / [Source](http://www.gutenberg.org/ebooks/13333)
 
 John Keats
 ------------------------------
 
-![Poster image](booklet/keats/keats-poster.jpg)
+![Poster image](https://github.com/sfpc-amd/txt-conversations/raw/master/publish/keats/keats-poster.jpg)
 
-[Screen PDF](https://github.com/sfpc-amd/txt-conversations/raw/master/booklet/keats/keats-booklet-screen.pdf) / [Print PDF](https://github.com/sfpc-amd/txt-conversations/raw/master/booklet/keats/keats-booklet-print.pdf) / [Source](http://www.gutenberg.org/ebooks/35698)
+[Screen PDF](https://github.com/sfpc-amd/txt-conversations/raw/master/publish/keats/keats-booklet-screen.pdf) / [Print PDF](https://github.com/sfpc-amd/txt-conversations/raw/master/publish/keats/keats-booklet-print.pdf) / [Source](http://www.gutenberg.org/ebooks/35698)
 
 Mary Wollstonecraft
 ------------------------------
 
-![Poster image](booklet/wollstonecraft/wollstonecraft-poster.jpg)
+![Poster image](https://github.com/sfpc-amd/txt-conversations/raw/master/publish/wollstonecraft/wollstonecraft-poster.jpg)
 
-[Screen PDF](https://github.com/sfpc-amd/txt-conversations/raw/master/booklet/wollstonecraft/wollstonecraft-booklet-screen.pdf) / [Print PDF](https://github.com/sfpc-amd/txt-conversations/raw/master/booklet/wollstonecraft/wollstonecraft-booklet-print.pdf) / [Source](http://www.gutenberg.org/ebooks/3529)
+[Screen PDF](https://github.com/sfpc-amd/txt-conversations/raw/master/publish/wollstonecraft/wollstonecraft-booklet-screen.pdf) / [Print PDF](https://github.com/sfpc-amd/txt-conversations/raw/master/publish/wollstonecraft/wollstonecraft-booklet-print.pdf) / [Source](http://www.gutenberg.org/ebooks/3529)
 
 
 Roll Your Own
